@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(65, 65, 65);
+}
+
+    .osnovatext{
+        color: rgb(243, 135, 225);
+        font-family: Arial;
+        font-size: 19px; 
+    }
+
+        
+
+    button {
+        background-color: #ff6347;
+        color: #fff;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.2em;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      button:hover {
+        background-color: #ff4500;
+      }
+
+      .confetti {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        display: none;
+      }
+      .confetti img {
+        width: 100px;
+      }
+  
+          .fesp{
+              text-align: center;
+          }
+  
+          .fesbtn{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              margin-left: 95px;
+          }
+  
+          .btnlasts{
+              text-decoration: none;
+              color: white;
+          }
